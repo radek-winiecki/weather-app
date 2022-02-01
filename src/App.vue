@@ -1,9 +1,23 @@
 <template>
   <div id="app">
     <main>
+
       <div class="search-box">
         <input type="text" class="search-bar" placeholder="Search...">
       </div>
+
+      <div class="weather-wrap">
+        <div class="location-box">
+          <div class="location">Poznan, PL</div>
+          <div class="date">Tuesday 01 February 2022</div>
+        </div>
+      </div>
+
+      <div class="weather-box">
+        <div class="temp">9deg</div>
+        <div class="weather">Rain</div>
+      </div>
+
     </main>
   </div>
 </template>
