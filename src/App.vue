@@ -77,6 +77,10 @@ export default {
 
 body {
   font-family: 'montserrat', sans-serif;
+  max-width: 33vw;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-image: linear-gradient(40deg, #709099 12%, #2c3947 88%);
 }
 
 #app {
@@ -89,7 +93,7 @@ body {
   background-image: url('./assets/warm-bg.jpg');
 }
 main {
-  min-height: 100vh;
+  min-height: 96vh;
   padding: 25px;
 
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
