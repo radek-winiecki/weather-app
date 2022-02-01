@@ -80,7 +80,7 @@ body {
   max-width: 33vw;
   margin: 0 auto;
   padding: 20px 0px;
-  background-image: linear-gradient(40deg, #709099 12%, #2c3947 88%);
+  background-image: linear-gradient(180deg, #709099 12%, #c96232 90%);
 }
 
 #app {
@@ -166,6 +166,24 @@ main {
   font-weight: 700;
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 425px) {
+  body {
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 66vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    max-width: 50vw;
+  }
 }
 
 </style>
