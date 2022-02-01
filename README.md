@@ -1,6 +1,6 @@
 # weather-app
 
-A project of a portfolio and blog website. Technologies: HTML, CSS, JavaScript and Vue.js
+A project of a weather app. Technologies: HTML, CSS, JavaScript and Vue.js
 
 Some screenshots from the project:
 
