@@ -1,5 +1,14 @@
 # weather-app
 
+A project of a portfolio and blog website. Technologies: HTML, CSS, JavaScript and Vue.js
+
+Some screenshots from the project:
+
+![screenshot](screenshots/weather1.png)
+![screenshot](screenshots/weather2.png)
+![screenshot](screenshots/weather3.png)
+![screenshot](screenshots/weather4.png)
+
 ## Project setup
 ```
 npm install
