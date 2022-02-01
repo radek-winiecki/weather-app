@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    
+    <main>
+      <div class="search-box">
+        <input type="text" class="search-box" placeholder="Search...">
+      </div>
+    </main>
   </div>
 </template>
 
@@ -8,16 +12,14 @@
 
 export default {
   name: 'App',
+  data () {
+    return {
+      api_key: 'f6a2c317f97367bfe8fa3e5fc517e80d',
+    }
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
